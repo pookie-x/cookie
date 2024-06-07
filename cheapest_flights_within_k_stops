@@ -8,6 +8,7 @@ public:
             int w=it[2];
             adj[u].push_back({v,w});
         }
+        //priority_queuue can be used too
         queue<pair<int,int>>q;
         vector<int>dist(n,1e9);
         dist[src]=0;
